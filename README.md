@@ -1,1 +1,113 @@
 # amenelsayedf.github.io
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amen Elsayed (amenelsayed) | Bug Bounty Hunter & Security Researcher</title>
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .card {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+        }
+        h1 {
+            color: #58a6ff;
+            margin-bottom: 5px;
+            font-size: 28px;
+        }
+        .handle {
+            color: #8b949e;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+            color: #8b949e;
+        }
+        .tag {
+            display: inline-block;
+            background-color: rgba(56, 139, 253, 0.15);
+            color: #58a6ff;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 30px;
+        }
+        .btn {
+            display: block;
+            padding: 12px;
+            background-color: #21262d;
+            border: 1px solid #30363d;
+            color: #c9d1d9;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+        .btn:hover {
+            background-color: #30363d;
+            border-color: #8b949e;
+            color: #ffffff;
+        }
+        .btn.h1-btn {
+            background-color: #238636;
+            border-color: #2ea44f;
+            color: #ffffff;
+        }
+        .btn.h1-btn:hover {
+            background-color: #2ea44f;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Amen Elsayed</h1>
+    <div class="handle">@amenelsayed</div>
+    <span class="tag">Bug Bounty Hunter </span>
+    
+    <p>
+        Welcome to my official domain. I am an independent security researcher specializing in Web Application Penetration Testing and Vulnerability Assessment. Active hunter on HackerOne, securing modern web applications.
+    </p>
+
+    <div class="links">
+        <!-- رابط حسابك في هاكر ون -->
+        <a href="https://hackerone.com/amenelsayed" class="btn h1-btn" target="_blank">HackerOne Profile</a>
+        
+        <!-- رابط حسابك في لينكد إن -->
+        <a href="https://www.linkedin.com/in/amenelsayed/" class="btn" target="_blank">Connect on LinkedIn</a>
+        
+        <!-- رابط حسابك في تويتر المعدل -->
+        <a href="https://x.com/amenelsayed_" class="btn" target="_blank">Follow on X (Twitter)</a>
+    </div>
+</div>
+
+</body>
+</html>
