@@ -3,62 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amen Elsayed | Security Researcher</title>
-    <style>
-        :root {
-            --bg: #0a0a0a;
-            --fg: #d1d1d1;
-            --accent: #00ff41;
-            --dim: #666;
-        }
-        body {
-            background: var(--bg);
-            color: var(--fg);
-            font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
-            line-height: 1.6;
-            max-width: 650px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-        header { margin-bottom: 40px; }
-        h1 { font-size: 1.2rem; color: #fff; margin: 0; }
-        .role { color: var(--accent); font-size: 0.9rem; }
-        section { margin-bottom: 40px; }
-        h2 { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--dim); border-bottom: 1px solid #222; padding-bottom: 5px; margin-bottom: 15px; }
-        p { margin: 0; }
-        .writeup { margin-bottom: 15px; }
-        .writeup-title { display: block; color: #fff; text-decoration: none; font-weight: bold; }
-        .writeup-meta { font-size: 0.85rem; color: var(--dim); }
-        .writeup-meta a { color: var(--accent); text-decoration: none; }
-        .writeup-meta a:hover { text-decoration: underline; }
-        .links a { color: var(--fg); text-decoration: none; margin-right: 15px; border-bottom: 1px solid var(--dim); }
-        .links a:hover { color: var(--accent); border-bottom-color: var(--accent); }
-        @media (max-width: 600px) {
-            body { margin: 20px auto; }
-        }
-    </style>
+    <title>Amen Elsayed | Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Amen Elsayed</h1>
         <div class="role">Security Researcher / Bug Bounty Hunter</div>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="writeups.html">Writeups</a>
+            <a href="projects.html">Projects</a>
+        </nav>
     </header>
 
-    <section id="about">
-        <h2>About</h2>
-        <p>Focused on application security, logic flaws, and identity management vulnerabilities. Active bug bounty hunter with a proof-based approach to security research.</p>
-    </section>
-
-    <section id="writeups">
-        <h2>Writeups</h2>
-        <div class="writeup">
-            <span class="writeup-title">Zero-click ATO via accent normalization</span>
-            <div class="writeup-meta">Medium &rarr; <a href="https://medium.com/@amenelsayed/zero-click-ato-how-a-single-accent-mark-led-to-account-takeovers-6335a965a448" target="_blank">Read</a></div>
-        </div>
-        <div class="writeup">
-            <span class="writeup-title">Logic flaw in premium feature gating</span>
-            <div class="writeup-meta">Medium &rarr; <a href="https://medium.com/@amenelsayed/logic-over-locks-how-i-unlocked-premium-features-on-a-free-account-7e7859527fe5" target="_blank">Read</a></div>
-        </div>
+    <section id="home">
+        <p>Independent security researcher focused on application logic and identity vulnerabilities.</p>
     </section>
 
     <section id="links">
