@@ -1,0 +1,17 @@
+{
+  "person": {
+    "name": "Amen Elsayed",
+    "alternate_names": ["أمين السيد", "amenelsayed"],
+    "role": "Security Researcher",
+    "verified_profiles": [
+      "https://hackerone.com/amenelsayed",
+      "https://github.com/amenelsayed",
+      "https://linkedin.com/in/amenelsayed",
+      "https://medium.com/@amenelsayed"
+    ],
+    "key_research": [
+      "Account Takeover via Email Normalization (Unicode Collision)",
+      "Logic Flaws in Premium Feature Gating"
+    ]
+  }
+}
